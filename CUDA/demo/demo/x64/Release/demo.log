@@ -1,0 +1,7 @@
+﻿  Compiling CUDA source file hello world.cu...
+  
+  D:\CUDA\demo>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\HostX64\x64" -x cu   -ID:\CUDA\demo -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\include"     --keep-dir demo\x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fddemo\x64\Release\vc143.pdb" -o "D:\CUDA\demo\demo\x64\Release\hello world.cu.obj" "D:\CUDA\demo\hello world.cu" 
+  hello world.cu
+  tmpxft_0000e0ac_00000000-7_hello world.cudafe1.cpp
+  LINK : 已指定 /LTCG，但不需要生成代码；从链接命令行中移除 /LTCG 以提高链接器性能
+  demo.vcxproj -> D:\CUDA\demo\x64\Release\demo.exe
